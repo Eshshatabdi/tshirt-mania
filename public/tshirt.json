@@ -1,0 +1,42 @@
+[
+    {
+        "_id": "6245cb8c800654c9d9a10e12",
+        "index": 0,
+        "picture": "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80",
+        "price": 31,
+        "name": "Myrna Newton",
+        "gender": "female"
+    },
+    {
+        "_id": "6245cb8ced600b9d19923325",
+        "index": 1,
+        "picture": "https://images.unsplash.com/photo-1608883826989-3904fc50cc45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=428&q=80",
+        "price": 31,
+        "name": "Tate Wynn",
+        "gender": "male"
+    },
+    {
+        "_id": "6245cb8c2343c5dac090193d",
+        "index": 2,
+        "picture": "http://placehold.it/32x32",
+        "price": 27,
+        "name": "Katina Rodriquez",
+        "gender": "female"
+    },
+    {
+        "_id": "6245cb8c5b63530c3a70de70",
+        "index": 3,
+        "picture": "http://placehold.it/32x32",
+        "price": 31,
+        "name": "Richmond Noble",
+        "gender": "male"
+    },
+    {
+        "_id": "6245cb8cb277a1af82d35b3d",
+        "index": 4,
+        "picture": "http://placehold.it/32x32",
+        "price": 33,
+        "name": "Henderson Blevins",
+        "gender": "male"
+    }
+]
