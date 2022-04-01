@@ -1,23 +1,32 @@
-import React from 'react';
+import React, { createContext, useState } from 'react';
 import Aunty from '../Aunty/Aunty';
 import Father from '../Father/Father';
 import Uncle from '../Uncle/Uncle';
 import './GrandPa.css'
 
+export const RingContext = createContext('diamond')
 const GrandPa = () => {
-    const house = 7
+    const [house, setHouse] = useState(1);
+    const handleBuyAHouse = () => {
+        const newHouse = house + 1
+        setHouse(newHouse)
+    }
+
     return (
-        <div className='grandpa' >
-            <h4>Grand Pa</h4>
-            <p>House:{house}</p>
-            <section style={{ display: 'flex' }}>
-                <Father house={house}></Father>
-                <Uncle house={house}></Uncle>
-                <Aunty house={house}></Aunty>
+        <RingContext.Provider value='diamond'>
+            <div className='grandpa' >
+                <h4>Grand Pa</h4>
 
-            </section>
+                <p>House:{house}  <button onClick={handleBuyAHouse}>buy A House</button></p>
+                <section style={{ display: 'flex' }}>
+                    <Father house={house}></Father>
+                    <Uncle house={house}></Uncle>
+                    <Aunty house={house}></Aunty>
 
-        </div>
+                </section>
+
+            </div>
+        </RingContext.Provider>
     );
 };
 
